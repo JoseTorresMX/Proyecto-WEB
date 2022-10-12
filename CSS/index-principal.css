@@ -28,7 +28,7 @@ body {
 }
 
 .encabezado .logo img {
-    height: 25rem;
+    height: 30rem;
     width: auto;
     transition: all 0.3s;
 
@@ -48,10 +48,11 @@ body {
     color: black;
 }
 
-.encabezado .barra-nav{
+.encabezado .barra-nav {
     list-style: none;
 }
-.encabezado .barra-nav a{
+
+.encabezado .barra-nav a {
     display: inline-block;
     padding: 0 2rem;
     color: white;
@@ -59,21 +60,45 @@ body {
     font-size: 4rem;
 }
 
-.encabezado .barra-nav a:hover{
+.encabezado .barra-nav a:hover {
     transform: scale(1.1);
     color: #ffb300;
 }
-.encabezado .barra-nav button{
+
+.encabezado .barra-nav button {
     color: black;
-    padding:0.9rem 2.5rem;
+    padding: 0.9rem 2.5rem;
     background-color: #ffb300;
     border: none;
     border-radius: 5rem;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-.encabezado .barra-nav .boton:hover{
+
+.encabezado .barra-nav .boton:hover {
     background-color: #424242;
     color: #efefef;
     transform: scale(1.1);
+}
+
+.imagen {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+}
+img{
+    border-radius: 2rem;
+}
+
+.texto {
+    padding-left: 2rem;
+}
+.texto p{
+    font-size: 4rem;
+}
+h1 {
+    font-size: 8rem;
+    text-align: left;
 }
