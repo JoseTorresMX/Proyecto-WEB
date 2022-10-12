@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #efefef;
+
+}
+
+body {
+    font-size: 16px;
+}
+
+.encabezado {
+    background-color: #424242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+    padding: 10rem 10%;
+}
+
+.encabezado .logo img {
+    height: 25rem;
+    width: auto;
+    transition: all 0.3s;
+
+}
+
+.encabezado .logo {
+    cursor: pointer;
+}
+
+.encabezado .logo img:hover {
+    transform: scale(1.2);
+}
+
+.pie-de-pagina {
+    background-color: #ffb300;
+    text-align: center;
+    color: black;
+}
+
+.encabezado .barra-nav{
+    list-style: none;
+}
+.encabezado .barra-nav a{
+    display: inline-block;
+    padding: 0 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 4rem;
+}
+
+.encabezado .barra-nav a:hover{
+    transform: scale(1.1);
+    color: #ffb300;
+}
+.encabezado .barra-nav button{
+    color: black;
+    padding:0.9rem 2.5rem;
+    background-color: #ffb300;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.encabezado .barra-nav .boton:hover{
+    background-color: #424242;
+    color: #efefef;
+    transform: scale(1.1);
+}
