@@ -1,21 +1,21 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
     background: #757F9A;
-    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A); 
-    background: linear-gradient(to right, #D7DDE8, #757F9A); 
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
     font-family: 'Roboto', sans-serif;
 }
 
 
 
-form{
+form {
     position: absolute;
     min-width: 280px;
     max-width: 26%;
@@ -24,14 +24,14 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
-    box-shadow: 0 1rem rgba(255,255,255,0.1);
-    background-color: rgba(225,225,225);
+    box-shadow: 0 1rem rgba(255, 255, 255, 0.1);
+    background-color: rgba(225, 225, 225);
     backdrop-filter: blur(1rem);
     border-radius: 8px;
     color: rgb(0, 0, 0);
 }
 
-h1{
+h1 {
     position: relative;
     font-size: 18px;
     margin-bottom: 20px;
@@ -39,7 +39,7 @@ h1{
     text-align: center;
 }
 
-h1::after{
+h1::after {
     content: "";
     position: absolute;
     height: 3px;
@@ -52,8 +52,8 @@ h1::after{
 }
 
 
-#cajas{
-    
+#cajas {
+
     width: 100%;
     height: 50px;
     padding: 5px 6px;
@@ -63,13 +63,13 @@ h1::after{
     border-radius: 1px;
 }
 
-#casillas{
+#casillas {
     height: 50px;
     margin-bottom: 20px;
 
 }
 
-button{
+button {
     display: block;
     margin: auto;
     width: 230px;

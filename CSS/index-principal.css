@@ -88,16 +88,19 @@ body {
     margin-right: 1rem;
     display: flex;
 }
-img{
+
+img {
     border-radius: 2rem;
 }
 
 .texto {
     padding-left: 2rem;
 }
-.texto p{
+
+.texto p {
     font-size: 4rem;
 }
+
 h1 {
     font-size: 8rem;
     text-align: left;
