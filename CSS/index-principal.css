@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5rem;
-}
-
 html {
     font-size: 62.5%;
     background-color: #efefef;
@@ -18,20 +8,32 @@ body {
     font-size: 16px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+
 .encabezado {
     background-color: #424242;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30rem;
-    padding: 10rem 10%;
+    height: 15rem;
+    padding: 1rem 10%;
 }
 
 .encabezado .logo img {
-    height: 30rem;
-    width: auto;
+    height: 20rem;
+    width: 20rem;
     transition: all 0.3s;
-
+    float: left;
+    justify-content: center;
+    align-items: center;
 }
 
 .encabezado .logo {
@@ -40,12 +42,6 @@ body {
 
 .encabezado .logo img:hover {
     transform: scale(1.2);
-}
-
-.pie-de-pagina {
-    background-color: #ffb300;
-    text-align: center;
-    color: black;
 }
 
 .encabezado .barra-nav {
@@ -57,7 +53,7 @@ body {
     padding: 0 2rem;
     color: white;
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .encabezado .barra-nav a:hover {
@@ -67,12 +63,13 @@ body {
 
 .encabezado .barra-nav button {
     color: black;
-    padding: 0.9rem 2.5rem;
+    padding: 1rem 2rem;
     background-color: #ffb300;
     border: none;
-    border-radius: 5rem;
+    border-radius: 4rem;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-size: 2rem;
 }
 
 .encabezado .barra-nav .boton:hover {
@@ -81,12 +78,60 @@ body {
     transform: scale(1.1);
 }
 
+.pie-de-pagina {
+    width: 100%;
+    background-color: #424242;
+}
+
+.pie-de-pagina .grupo1 {
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+    padding: 4.5rem 0rem;
+}
+
+.pie-de-pagina .grupo1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina .grupo1 .box figure img {
+    width: 25rem;
+}
+
+.pie-de-pagina .grupo1 .box h2 {
+    color: #ffb300;
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+}
+
+.pie-de-pagina .grupo1 .box p {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.pie-de-pagina .grupo1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+}
+
 .imagen {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     margin-left: 1rem;
     margin-right: 1rem;
     display: flex;
+    height: 50rem;
 }
 
 img {
@@ -98,10 +143,10 @@ img {
 }
 
 .texto p {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     text-align: left;
 }
