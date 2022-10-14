@@ -8,7 +8,10 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #DFDFDF;
+    /* background-color: #DFDFDF; */
+    background: url(/IMG/img_login.jpg);
+    background-size: cover;
+    background-attachment: fixed
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -30,9 +33,10 @@ form {
     box-shadow: 0 0.5rem 1rem rgba(71, 3, 6, 0.7);
     border-radius: 1rem;
     border-color: #ffb300;
-    border-style:double;
+    border-style: double;
 }
-form img{
+
+form img {
     height: 30rem;
     width: 30rem;
 }
@@ -69,11 +73,17 @@ form .link {
     margin-bottom: 1rem;
     /* font-size: 3rem; */
 }
-form .registros{
-    color: black;
-    margin-bottom: 4rem;
+
+form p {
+    margin-bottom: 1rem;
 }
-form button{
+
+form a {
+    margin-left: 1rem;
+    color: black;
+}
+
+form button {
     color: white;
     border: none;
     background: black;

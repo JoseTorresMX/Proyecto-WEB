@@ -8,7 +8,10 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #DFDFDF;
+    /* background-color: #DFDFDF; */
+    background: url(/IMG/img_signin.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -67,8 +70,9 @@ form label input::placeholder {
     font-style: italic;
     color: rgba(37, 37, 37, 0.5);
 }
+
 form button {
-    color:black;
+    color: black;
     border: none;
     background: #ffb300;
     padding: 1rem 1.5rem;
@@ -76,10 +80,12 @@ form button {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-form p{
+
+form p {
     margin-bottom: 1rem;
 }
-form a{
+
+form a {
     margin-left: 1rem;
     color: black;
 }
