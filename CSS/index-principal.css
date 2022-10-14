@@ -123,6 +123,23 @@ body {
     width: 4.5rem;
     height: 4.5rem;
     line-height: 4.5rem;
+    transition: all 0.3s;
+}
+
+.pie-de-pagina .grupo1 .red-social a:hover {
+    background: black;
+}
+
+.pie-de-pagina .grupo2 {
+    background-color: black;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.pie-de-pagina .grupo2 small,
+b {
+    font-size: 2rem;
 }
 
 .imagen {
