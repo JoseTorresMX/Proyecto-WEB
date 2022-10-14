@@ -21,6 +21,7 @@ body {
     /* font-size: 2rem; */
 }
 
+/*para crear y diseñar el fomrulario*/
 form {
     display: flex;
     flex-direction: column;
@@ -30,13 +31,16 @@ form {
     box-shadow: 0 0.5rem 1rem rgba(71, 3, 6, 0.7);
     border-radius: 1rem;
     border-color: #ffb300;
-    border-style:double;
+    border-style: double;
 }
-form img{
+
+/*para dimensionar una imagen dentro del formulario*/
+form img {
     height: 30rem;
     width: 30rem;
 }
 
+/*darle distancia en tre labels*/
 form label {
     margin-bottom: 2rem;
 }
@@ -63,20 +67,19 @@ form label input::placeholder {
     font-style: italic;
     color: rgba(37, 37, 37, 0.5);
 }
-
-form .link {
-    color: black;
-    margin-bottom: 1rem;
-    /* font-size: 3rem; */
-}
-form .registros{
-    color: black;
-    margin-bottom: 4rem;
-}
-form button{
-    color: white;
+form button {
+    color:black;
     border: none;
-    background: black;
+    background: #ffb300;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+form p{
+    margin-bottom: 1rem;
+}
+form a{
+    margin-left: 1rem;
+    color: black;
 }
