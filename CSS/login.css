@@ -8,10 +8,12 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-color: #E5E5E5;
+
     /* background-color: #DFDFDF; */
-    background: url(/IMG/img_login.jpg);
+    /* background: url(/IMG/img_login.jpg);
     background-size: cover;
-    background-attachment: fixed
+    background-attachment: fixed */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -39,6 +41,7 @@ form {
 form img {
     height: 30rem;
     width: 30rem;
+    margin: auto;
 }
 
 form label {
@@ -89,4 +92,5 @@ form button {
     background: black;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
+    font-size: 2rem;
 }

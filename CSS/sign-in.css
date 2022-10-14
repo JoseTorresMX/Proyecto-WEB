@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
 }
 
 body {
@@ -8,10 +8,10 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /* background-color: #DFDFDF; */
-    background: url(/IMG/img_signin.jpg);
+    background-color: #E5E5E5;
+    /* background: url(/IMG/img_signin.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -41,6 +41,7 @@ form {
 form img {
     height: 30rem;
     width: 30rem;
+    margin: auto;
 }
 
 /*darle distancia en tre labels*/
@@ -77,8 +78,10 @@ form button {
     background: #ffb300;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
+    /* margin: 50rem; */
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 2rem;
 }
 
 form p {
