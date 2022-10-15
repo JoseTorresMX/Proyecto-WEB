@@ -1,0 +1,63 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    background-color: #E5E5E5;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*darle color y espacio al nav-bar*/
+nav {
+    background: #424242;
+    padding: 2rem 2rem;
+}
+
+/*quitar estilo de lista, ejemplo:viñetas*/
+ul {
+    list-style-type: none;
+}
+
+/*color al texto de anckle y quitar lineas debajo.*/
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu li {
+    font-size: 2rem;
+    padding: 1rem 0.5rem;
+}
+
+.menu li a {
+    display: block;
+}
+
+.logo a {
+    font-size: 4rem;
+}
+.boton{
+    border-bottom: 0.5rem white solid;
+}
+
+/*menu movil*/
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
