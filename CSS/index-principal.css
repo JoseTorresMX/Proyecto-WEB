@@ -31,7 +31,7 @@ body {
     height: 20rem;
     width: 20rem;
     transition: all 0.3s;
-    float: left;
+    /* float: left; */
     justify-content: center;
     align-items: center;
 }
