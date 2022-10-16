@@ -19,7 +19,7 @@ body {
 
 /*darle color y espacio al nav-bar*/
 nav {
-    background: #424242;
+    background: #ffb300;
     padding: 2rem 2rem;
 }
 
@@ -34,9 +34,9 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+/* a:hover {
+ text-decoration: underline;
+} */
 
 .menu li {
     font-size: 2rem;
@@ -49,13 +49,15 @@ a:hover {
 
 .logo a {
     font-size: 4rem;
+    font-weight: bold;
 }
-.boton{
+
+.boton {
     border-bottom: 0.5rem white solid;
 }
 
 /*menu movil*/
-.menu{
+.menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

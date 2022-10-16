@@ -34,6 +34,7 @@ body {
     /* float: left; */
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 .encabezado .logo {
