@@ -10,10 +10,10 @@ body {
     min-height: 100vh;
     background-color: #E5E5E5;
 
-    /* background-color: #DFDFDF; */
-    /* background: url(/IMG/img_login.jpg);
+    background-color: #DFDFDF;
+    background: url(/img/img_login.jpg);
     background-size: cover;
-    background-attachment: fixed */
+    background-attachment: fixed
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
