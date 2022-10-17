@@ -9,9 +9,10 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-color: #E5E5E5;
-    background: url(/img/img_signin.jpg);
+
+    /* background: url(/img/img_signin.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -71,18 +72,17 @@ form label input::placeholder {
     font-style: italic;
     color: rgba(37, 37, 37, 0.5);
 }
-
+/* 
 form button {
     color: black;
     border: none;
     background: #ffb300;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
-    /* margin: 50rem; */
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 2rem;
-}
+} */
 
 form p {
     margin-bottom: 1rem;

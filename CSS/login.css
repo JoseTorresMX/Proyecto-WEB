@@ -10,15 +10,15 @@ body {
     min-height: 100vh;
     background-color: #E5E5E5;
 
-    background-color: #DFDFDF;
-    background: url(/img/img_login.jpg);
+    /* background: url(/img/img_login.jpg);
     background-size: cover;
-    background-attachment: fixed
+    background-attachment: fixed; */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
+    /* flex-direction: column; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -90,7 +90,22 @@ form button {
     color: white;
     border: none;
     background: black;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 2rem;
+}
+
+/*funciones del header*/
+.contenedor_headers {
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+/*funciones del footer*/
+.contenedor_footers {
+    margin-top: 5rem;
+    width: 100%;
+    height: 48rem;
 }

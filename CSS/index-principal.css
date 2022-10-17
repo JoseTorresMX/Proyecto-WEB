@@ -27,23 +27,9 @@ body {
     padding: 1rem 10%;
 }
 
-/* .encabezado .logo img {
-    height: 20rem;
-    width: 20rem;
-    transition: all 0.3s;
-    float: left;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-} */
-
 .encabezado .logo {
     cursor: none;
 }
-
-/* .encabezado .logo img:hover {
-    transform: scale(1.2);
-} */
 
 .encabezado .barra-nav {
     list-style: none;
@@ -86,12 +72,12 @@ body {
 
 .pie-de-pagina .grupo1 {
     width: 100%;
-    max-width: 120rem;
+    max-width: 100rem;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5rem;
-    padding: 4.5rem 0rem;
+    padding: 4rem 0rem;
 }
 
 .pie-de-pagina .grupo1 .box figure {
@@ -103,13 +89,14 @@ body {
 }
 
 .pie-de-pagina .grupo1 .box figure img {
-    width: 20rem;
+    width: 30rem;
+    height: 30rem;
     padding: 0;
 }
 
 .pie-de-pagina .grupo1 .box h2 {
     color: #ffb300;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     font-size: 4rem;
 }
 
@@ -122,10 +109,10 @@ body {
 .pie-de-pagina .grupo1 .red-social a {
     display: inline-block;
     text-decoration: none;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     line-height: 4.5rem;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .pie-de-pagina .grupo1 .red-social a:hover {
@@ -175,3 +162,17 @@ h1 {
     font-size: 5rem;
     color: #ffb300;
 }
+
+/*funciones del header*/
+/* .contenedor_headers {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 15rem;
+} */
+
+/*funciones del footer*/
+/* .contenedor_footers {
+    margin-top: 2rem;
+    width: 100%;
+    height: 48rem;
+} */
