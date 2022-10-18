@@ -34,8 +34,8 @@ form {
     padding: 2rem 2.5rem;
     box-shadow: 0 0.5rem 1rem rgba(71, 3, 6, 0.7);
     border-radius: 1rem;
-    border-color: #ffb300;
-    border-style: double;
+    /* border-color: #ffb300;
+    border-style: double; */
 }
 
 form img {
@@ -86,7 +86,7 @@ form a {
     color: black;
 }
 
-form button {
+/* form button {
     color: white;
     border: none;
     background: black;
@@ -94,6 +94,27 @@ form button {
     border-radius: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-size: 2rem;
+} */
+
+.botonlogin {
+    color:black;
+    background: #ffb300;
+    font-size: 2rem;
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.botonback{
+   background:black ;
+   border: none;
+   margin:1rem;
+   padding: 1rem;
+}
+.botonback a{
+    color: white;
+    text-decoration: none;
     font-size: 2rem;
 }
 
