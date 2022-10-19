@@ -1,0 +1,73 @@
+html {
+    font-size: 62.5%;
+    /* min-width: 120px; */
+}
+
+body {
+    font-size: 16px;
+    background-color: #E5E5E5;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #ffb300;
+}
+
+.encabezado {
+    background-color: #424242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+    padding: 1rem 10%;
+    margin-bottom: 2rem;
+}
+
+.encabezado .logo {
+    cursor:pointer;
+}
+
+.encabezado .barra-nav {
+    list-style:none;
+}
+
+.encabezado .barra-nav a {
+    display: inline-block;
+    padding: 0 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.encabezado .barra-nav a:hover {
+    transform: scale(1.1);
+    color: #ffb300;
+}
+
+.encabezado .barra-nav button {
+    color: black;
+    padding: 1rem 2rem;
+    background-color: #ffb300;
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 2rem;
+}
+
+.encabezado .barra-nav .boton:hover {
+    background-color: #424242;
+    color: #efefef;
+    transform: scale(1.1);
+}
