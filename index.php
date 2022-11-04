@@ -6,13 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/index-principal.css">
+    <link rel="stylesheet" href="/Proyecto WEB/css/index-principal.css">
     <title>Pagina Principal</title>
+    <link rel="stylesheet" href="/Proyecto WEB/css/headers.css">
 </head>
 
 </header>
 
 <body>
-    <header class="encabezado">
+    <?php 
+include("../Proyecto WEB/recursosphp/headers.html");
+
+    ?>
+    <!-- <header class="encabezado">
         <div class="logo">
             <h1>Bazar Electrónico</h1>
         </div>
@@ -23,14 +29,16 @@
             <a href="/paginas/contacto.html"><button class="contacto">Contacto</button></a>
             <a href="/paginas/login.html"><button class="login">Iniciar Sesión</button></a>
         </nav>
-    </header>
+    </header> -->
+    
     <section>
         CARRUSEL/GALERIA
+        ambos
     </section>
     <main>
         CATEGORIAS
     </main>
-    <footer class="pie-de-pagina">
+    <!-- <footer class="pie-de-pagina">
         <div class="grupo1">
             <div class="box">
                 <figure>
@@ -91,7 +99,7 @@
         <div class="grupo2">
             <small> &copy; 2022 <b>Bazar Electronico</b> - Todos los Derechos Reservados</small>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
