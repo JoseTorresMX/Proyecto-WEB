@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/index-principal.css">
     <link rel="stylesheet" href="/Proyecto WEB/css/index-principal.css">
     <title>Pagina Principal</title>
-    <link rel="stylesheet" href="/Proyecto WEB/css/headers.css">
+    <link rel="stylesheet" href="/css/index-principal.css">
 </head>
 
 </header>
@@ -16,8 +16,7 @@
 <body>
     <?php 
 include("../Proyecto WEB/recursosphp/headers.html");
-
-    ?>
+?>
     <!-- <header class="encabezado">
         <div class="logo">
             <h1>Bazar Electrónico</h1>
