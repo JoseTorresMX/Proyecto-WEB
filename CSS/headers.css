@@ -55,10 +55,21 @@ h1 {
     color: #ffb300;
 }
 
-.encabezado .barra-nav button {
+/* .encabezado .barra-nav button {
     color: black;
     padding: 1rem 2rem;
     background-color: #ffb300;
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 2rem;
+} */
+
+.encabezado .barra-nav .contacto button {
+    color: black;
+    padding: 1rem 2rem;
+    /* background-color: #ffb300; */
     border: none;
     border-radius: 4rem;
     cursor: pointer;
